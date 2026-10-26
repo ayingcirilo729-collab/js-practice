@@ -1,19 +1,5 @@
-const grade = 88;
-let remark = "";
-let status = "";
-if (grade >= 90) {
-    remark = "outstanding";
-    status = "passed ✅";
-} else if (grade >= 85) {
-    remark = "very satisfactory";
-    status - "passed ✅"
-} else if (grade >= 80) {
-    remark = "good";
-    status = "passed";
-} else if (grade >= 75) {
-    remark = ("not satisfied");
-    status = ("passed")
-}
+const distance = 3;
+let lessKm = distance - 3;
+let fare = 13;
 
-console.log("Grade " + grade + ": " + remark);
-console.log(status);
+console.log("Fare for " + distance + " km: ₱" + fare.toFixed(2));
