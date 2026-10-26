@@ -1,7 +1,6 @@
-const distance = 10;
-let extraKm = distance - 4;
-let fare = 13 + (extraKm * 1.80);
-
-console.log("fare for" + distance + " km: ₱"+ fare.toFixed(2));
- let Studentfare = fare * 0.80;
- console.log("Student fare: ₱" + Studentfare.toFixed(2));
+const n = 7;
+if (n % 2 === 0) {
+    console.log(n + "is even");
+} else {
+    console.log( n + "is odd");
+}
